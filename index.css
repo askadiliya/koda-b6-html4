@@ -128,7 +128,7 @@ body{
   text-align: center;
 }
 
-/* DRINK */
+
 .drink {
   display: inline-block;
   width: 150px;
@@ -150,7 +150,7 @@ body{
   font-weight: bold;
 }
 
-/* DESCRIPTION */
+
 .drink-desc {
   display: inline-block;
   width: 260px;
@@ -162,4 +162,58 @@ body{
 .drink-desc p {
   line-height: 1.6;
 }
+
+.why {
+  background-color: #4a2c1d;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+
+.why-content {
+  display: inline-block;
+  width: 60%;
+  color: #fff;
+  position: relative;
+}
+
+.why-title {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.why-subtitle {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.why-text {
+  font-size: 14px;
+  line-height: 1.6;
+  width: 90%;
+}
+
+
+.why-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #c96a1b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+
+.why-image {
+  display: inline-block;
+  width: 35%;
+  text-align: center;
+}
+
+.why-image img {
+  width: 200px;
+}
+
 
