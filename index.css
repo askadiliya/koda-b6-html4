@@ -100,8 +100,15 @@ body{
   color: #3e2723;
 }
 
-.hero-button {
-  display: inline-block;
-  color: blue;
-  font-size: 16px;
+.hero .hero-content > a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding:10px 5px;
+  background-color: #3e2723;
+  border-radius: 5px;
+}
+
+.hero .hero-content > a:hover{
+    background-color: #FFDAB3;
+    color: #000;
 }
