@@ -1,7 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #FFDAB3;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffdab3;
 }
 
 .header {
@@ -14,7 +14,7 @@ body{
   position: absolute;
   left: 30px;
   top: 22px;
-  display: inline-block;      
+  display: inline-block;
 }
 
 .brand img {
@@ -30,9 +30,9 @@ body{
 
 .nav {
   position: absolute;
-  top: 8px;        
+  top: 8px;
   left: 50%;
-  margin-left: -200px; 
+  margin-left: -200px;
 }
 
 .nav ul {
@@ -50,15 +50,15 @@ body{
   color: #000;
 }
 
-.nav ul li a:hover{
-    padding: 8px 8px;
-    background-color: #FFDAB3;
-    border-radius: 5px;
+.nav ul li a:hover {
+  padding: 8px 8px;
+  background-color: #ffdab3;
+  border-radius: 5px;
 }
 .actions {
   position: absolute;
   right: 20px;
-  top: 20px;       
+  top: 20px;
 }
 
 .actions button {
@@ -70,9 +70,9 @@ body{
   color: white;
   border-radius: 5px;
 }
-.actions button:hover{
-    background-color: #FFDAB3;
-    color: #000;
+.actions button:hover {
+  background-color: #ffdab3;
+  color: #000;
 }
 
 .hero {
@@ -80,12 +80,11 @@ body{
   border-radius: 50px;
   padding: 80px 0;
   margin: 10px;
-
 }
 
 .hero-content {
   max-width: 600px;
-  margin-left: 30px;   
+  margin-left: 30px;
 }
 
 .hero-title {
@@ -103,14 +102,14 @@ body{
 .hero .hero-content > a {
   color: whitesmoke;
   text-decoration: none;
-  padding:10px 5px;
+  padding: 10px 5px;
   background-color: #3e2723;
   border-radius: 5px;
 }
 
-.hero .hero-content > a:hover{
-    background-color: #FFDAB3;
-    color: #000;
+.hero .hero-content > a:hover {
+  background-color: #ffdab3;
+  color: #000;
 }
 
 .featured {
@@ -127,7 +126,6 @@ body{
 .featured-list {
   text-align: center;
 }
-
 
 .drink {
   display: inline-block;
@@ -150,7 +148,6 @@ body{
   font-weight: bold;
 }
 
-
 .drink-desc {
   display: inline-block;
   width: 260px;
@@ -168,7 +165,6 @@ body{
   padding: 40px;
   border-radius: 20px;
 }
-
 
 .why-content {
   display: inline-block;
@@ -193,7 +189,6 @@ body{
   width: 90%;
 }
 
-
 .why-btn {
   display: inline-block;
   margin-top: 20px;
@@ -204,7 +199,6 @@ body{
   border-radius: 20px;
   font-size: 14px;
 }
-
 
 .why-image {
   display: inline-block;
@@ -232,4 +226,78 @@ body{
 }
 
 
+footer {
+  position: relative;
+  height: 250px;
+  background-color: #f7f3ed;
+  color: #333;
+  padding: 20px 50px 0 50px;
+}
 
+footer > section {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 300px;
+}
+
+footer img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666;
+  margin: 0;
+}
+
+footer nav {
+  position: absolute;
+  top: 20px;
+  width: 150px;
+}
+
+footer nav:nth-of-type(1) {
+  left: 400px;
+}
+
+footer nav:nth-of-type(2) {
+  left: 600px;
+}
+
+footer nav:nth-of-type(3) {
+  left: 800px;
+}
+
+footer h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+footer > p:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #5d4037;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 12px;
+  margin: 0;
+}
