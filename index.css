@@ -112,3 +112,54 @@ body{
     background-color: #FFDAB3;
     color: #000;
 }
+
+.featured {
+  padding: 40px 20px;
+  background-color: #f5efe6;
+}
+
+.featured-header h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.featured-list {
+  text-align: center;
+}
+
+/* DRINK */
+.drink {
+  display: inline-block;
+  width: 150px;
+  margin: 0 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.drink img {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.drink figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* DESCRIPTION */
+.drink-desc {
+  display: inline-block;
+  width: 260px;
+  margin-left: 40px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.drink-desc p {
+  line-height: 1.6;
+}
+
